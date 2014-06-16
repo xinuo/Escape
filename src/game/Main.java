@@ -19,7 +19,7 @@ public class Main {
         //int a[];
         r.Room();
        //enterRoom.enterRoom();
-       
+       r.setLock(true);
     }
     
 
