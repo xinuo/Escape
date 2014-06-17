@@ -29,5 +29,5 @@ public class SetRoom extends Room{
     public void setWhite(){
     RoomColor=4;
 }
-    //白色房间，没有东西。探索不产生东西
+    //白色房间，安全房间。游戏结束后站在这房间的人赢。
 }

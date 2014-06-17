@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package game;
+package game.service;
 import java.util.*;
 /**
  *
@@ -11,22 +11,22 @@ import java.util.*;
 public class enterRoom {
     public static void enterRoom(){
         Scanner in=new Scanner(System.in);
-        int[][] rn;
-        rn=new int[12][4];
+        
+        int[] num;
+        num=new int[12];
         for(int x=0;x<12;x++){
-            for(int y=0;y<4;y++){
-                rn[x][y]=0;
+         num[x]=0;
             }
-        }
+        //初始化房号数组
         int[] tempArray;
-        room r=new room();
-        {System.out.println("请指定1个安全房间的号数（1—12）,按回车结束");
+        SetRoom r=new SetRoom();
+    {System.out.println("请指定1个安全房间的号数（1—12）,按回车结束");
         int i;
         i=in.nextInt();
-        tempArray=r.setWhite();
-        System.arraycopy(tempArray, 0, rn[i-1], 0, 4);}
+        Room i=new Room();
+    }
         
-        {System.out.println("请指定5个线索房间的号数（1—12）,按回车结束");
+    {System.out.println("请指定5个线索房间的号数（1—12）,按回车结束");
         int i,n,a;
         n=0;
         a=5;
@@ -41,7 +41,7 @@ public class enterRoom {
         tempArray=r.setBlue();
         System.arraycopy(tempArray, 0, rn[i-1], 0, 4);
         n++;
-        }
+    }
 }
         
         {System.out.println("请指定1个解毒房间的号数（1—12）,按回车结束");
