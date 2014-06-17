@@ -9,7 +9,7 @@ package game.service;
  * @author 泣雨
  */
 public class Room {
-    public void Room(){
+    public void  Room(){
        System.out.println("RoomNum = "+RoomNum+"\nRoomColor = "+RoomColor+"\nPosion = "+Posion+"\nUnPosion = "+UnPosion+"\nLock = "+Lock);
     }
     short RoomNum;
