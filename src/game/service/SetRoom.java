@@ -17,4 +17,5 @@ public class SetRoom extends Room{
     UnPosion = false;
     Lock = true;
 }
+    
 }

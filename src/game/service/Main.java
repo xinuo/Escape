@@ -18,7 +18,9 @@ public class Main {
         Room r=new Room();
         //int a[];
         r.setLock(true);
-        r.Room();
+        SetRoom n=new SetRoom();
+        n.setBlue();
+        n.Room();
        //enterRoom.enterRoom();
        
     }
