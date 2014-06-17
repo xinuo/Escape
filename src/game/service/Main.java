@@ -16,7 +16,9 @@ public class Main {
     public static void main(String[] args) {
         Room a = new Room();
         a.Room();
-        login _login = new login();
+        EnterRoom r=new EnterRoom();
+        
+                        login _login = new login();
 		_login.starServer();
     }
     
