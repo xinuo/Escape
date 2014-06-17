@@ -13,23 +13,21 @@ package game.service;
 public class SetRoom extends Room{
     public void setBlue(){
     RoomColor=1;
-    Posion = false;
-    UnPosion = false;
-    clue = ture;
+    clue = true;
 }
+    //蓝色房间，线索房，探索获得线索。
     public void setRed(){
     RoomColor=2;
     Posion = true;
-    UnPosion = false;
 }
+    //红色房间，危险房，探索会失去1点体力
     public void setGreen(){
     RoomColor=3;
-    Posion = false;
     UnPosion = true;
 }
-    public void setGreen(){
-    RoomColor=3;
-    Posion = false;
-    UnPosion = true;
+    //绿色房间，解毒。去除身上的毒性。
+    public void setWhite(){
+    RoomColor=4;
 }
+    //白色房间，没有东西。探索不产生东西
 }
