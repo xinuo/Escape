@@ -17,10 +17,12 @@ public class Main {
         // TODO code application logic here
         Room r=new Room();
         //int a[];
-        r.setLock(true);
-        SetRoom n=new SetRoom();
-        n.setBlue();
-        n.Room();
+        r.setLock(false);
+        SetRoom r1=new SetRoom();
+        r1.setBlue();
+        r1.Room();
+        System.out.println("======================");
+        r.Room();
        //enterRoom.enterRoom();
        
     }

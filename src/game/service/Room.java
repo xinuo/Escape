@@ -12,11 +12,11 @@ public class Room {
     public void Room(){
        System.out.println("RoomNum = "+RoomNum+"\nRoomColor = "+RoomColor+"\nPosion = "+Posion+"\nUnPosion = "+UnPosion+"\nLock = "+Lock);
     }
-    private short RoomNum;
+    short RoomNum;
     static short RoomColor;
     boolean Posion;
     boolean UnPosion;
-    boolean Lock;
+    boolean Lock=true;
     boolean clue;
     public void  setRoomNum(short n){RoomNum =  n;}
     public void setRoomColor(short n){RoomColor = n;}

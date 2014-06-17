@@ -15,7 +15,21 @@ public class SetRoom extends Room{
     RoomColor=1;
     Posion = false;
     UnPosion = false;
-    Lock = true;
+    clue = ture;
 }
-    
+    public void setRed(){
+    RoomColor=2;
+    Posion = true;
+    UnPosion = false;
+}
+    public void setGreen(){
+    RoomColor=3;
+    Posion = false;
+    UnPosion = true;
+}
+    public void setGreen(){
+    RoomColor=3;
+    Posion = false;
+    UnPosion = true;
+}
 }
