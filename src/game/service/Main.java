@@ -23,6 +23,7 @@ public class Main {
         r1.Room();
         System.out.println("======================");
         r.Room();
+        enterRoom a= new enterRoom();
        //enterRoom.enterRoom();
        
     }
