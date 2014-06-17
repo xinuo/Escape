@@ -17,7 +17,7 @@ public class Main {
         // TODO code application logic here
         Room r=new Room();
         //int a[];
-        //test
+        //testdddd
         r.setLock(true);
         r.Room();
        //enterRoom.enterRoom();
