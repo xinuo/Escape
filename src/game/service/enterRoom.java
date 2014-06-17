@@ -11,5 +11,7 @@ package game.service;
  * @author z
  */
 public class enterRoom {
+    for {
     
+}
 }
