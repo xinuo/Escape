@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package game;
+package game.service;
 
 /**
  *
@@ -15,6 +15,7 @@ public class User {
     private boolean UserStatus;
     private short UserPower = 2;
     private boolean UserState;
+    public short UserNum;
     public void setUserName(String n){
         UserName = n;
     }
@@ -24,6 +25,9 @@ public class User {
     public void setUserPower(short n){
         UserPower = n;
     }
+    public void setUserNum(short n){
+        UserNum = n;
+}
     public String UserName(){return UserName;}
     public boolean UserStatus(){return UserStatus;}
     public short UserPower(){return UserPower;}

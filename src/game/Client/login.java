@@ -4,17 +4,12 @@
  * and open the template in the editor.
  */
 
-package game;
+package game.Client;
 
 /**
  *
  * @author z
  */
-public class SetRoom extends Room{
-    public void setBlue(){
-    RoomColor=1;
-    Posion = false;
-    UnPosion = false;
-    Lock = true;
-}
+public class login {
+    
 }
