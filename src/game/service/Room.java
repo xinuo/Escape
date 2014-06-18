@@ -13,7 +13,7 @@ public class Room {
        System.out.println("RoomNum = "+RoomNum+"\nRoomColor = "+RoomColor+"\nPosion = "+Posion+"\nUnPosion = "+UnPosion+"\nLock = "+Lock);
     }
     short RoomNum;
-    static short RoomColor;
+    short RoomColor;
     boolean Posion;
     boolean UnPosion;
     boolean Lock=true;
@@ -36,4 +36,9 @@ public class Room {
         public boolean getUnPosion(){
             return UnPosion;
         }
+        
+        
+        
+        
+        
 }
