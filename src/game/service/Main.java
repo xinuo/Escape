@@ -20,6 +20,8 @@ public class Main {
            
         login _login = new login();
 	_login.starServer();
+               SetRoom r1 = new SetRoom();
+
     }
     
 

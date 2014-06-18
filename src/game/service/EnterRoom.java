@@ -79,11 +79,7 @@ public class EnterRoom {
                 
         printf(num);
         
-        for(i=0;i<12;i++){
-            if (num[i]=1){
-            ri.setWhite();
-            }
-        }
+
     }
     
     public static void printf(int[] num){
@@ -95,7 +91,8 @@ public class EnterRoom {
     System.out.println();
 
         }
-        
+
+       
     }
     
 
