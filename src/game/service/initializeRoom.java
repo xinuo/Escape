@@ -36,5 +36,17 @@ public class initializeRoom {
             r10.setWhite();
             r11.setGreen();
             r12.setGreen();
+    EnterRoom er=new EnterRoom();
+    for (short i=0;i<12;i++){
+        if (er.num[i]==4){
+            if(r1.RoomNum!=0){
+            r1.RoomNum=i;
+            }
+
+    }else if(er.num[i]==3){
+        r11.RoomNum=i;
     }
+    }
+    }
+    
 }

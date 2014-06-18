@@ -9,27 +9,12 @@ import java.util.*;
  * @author 泣雨
  */
 public class EnterRoom {
-    
+    int num[] = new int[]{0,0,0,0,0,0,0,0,0,0,0,0};
     public  EnterRoom(){
         Scanner in=new Scanner(System.in);
-        int num[] = new int[]{0,0,0,0,0,0,0,0,0,0,0,0};
-        Room r1=new Room();
-        SetRoom r2=new SetRoom();
-        SetRoom r3=new SetRoom();
-        SetRoom r4=new SetRoom();
-        SetRoom r5=new SetRoom();
-        SetRoom r6=new SetRoom();
-        SetRoom r7=new SetRoom();
-        SetRoom r8=new SetRoom();
-        SetRoom r9=new SetRoom();
-        SetRoom r10=new SetRoom();
-        SetRoom r11=new SetRoom();
-        SetRoom r12=new SetRoom();
-        
-        //初始化房号数组
 
-        
-                //输入安全房间号码
+      //初始化房号数组
+      //输入安全房间号码
         System.out.println("请指定1个安全房间的号数（1—12）,按回车结束");
         int i;
         int n,a;
