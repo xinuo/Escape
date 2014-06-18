@@ -11,7 +11,9 @@ package game.service;
  * @author z
  */
 public class SetRoom extends Room{
-    
+    public SetRoom(){
+        
+    }
        //白色房间5个，线索房，探索获得线索。
     public void setWhite(){
     RoomColor=1;

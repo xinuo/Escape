@@ -6,13 +6,18 @@
 
 package game.service;
 
+import java.util.Scanner;
+
 /**
  *
  * @author z
  */
-public class initializeRoom {
-    public initializeRoom(){
-        EnterRoom a = new EnterRoom();
-    }
+public class InquireRoom {
+   InquireRoom(){
+       Scanner i = new Scanner(System.in);
+       System.out.println("请输入你要查询的房间号（1-12）");
+            i.nextShort();
+            
+   }
     
 }

@@ -4,14 +4,14 @@
  */
 package game.service;
 import java.util.*;
+import game.service.SetRoom;
 /**
  *
  * @author 泣雨
  */
-public class EnterRoom {
+public class InitializeRoom {
     int num[] = new int[]{0,0,0,0,0,0,0,0,0,0,0,0};
-    public  EnterRoom(){
-        Scanner in=new Scanner(System.in);
+    Scanner in=new Scanner(System.in);
         SetRoom r1 = new SetRoom();
         SetRoom r2 = new SetRoom();
         SetRoom r3 = new SetRoom();
@@ -24,6 +24,10 @@ public class EnterRoom {
         SetRoom r10 = new SetRoom();
         SetRoom r11 = new SetRoom();
         SetRoom r12 = new SetRoom();
+            
+    public  InitializeRoom(){
+
+        
             r1.setBlue();
             r2.setRed();
             r3.setRed();
@@ -36,6 +40,49 @@ public class EnterRoom {
             r10.setWhite();
             r11.setGreen();
             r12.setGreen();
+    System.out.println("请指定1个安全房间的号数（1—12）,按回车结束");
+        short i;
+        i=in.nextShort();
+       r1.RoomNum=i;
+    System.out.println("请指定5个线索房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r6.RoomNum=i;
+    System.out.println("请再指定4个线索房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r7.RoomNum=i;
+    System.out.println("请再指定3个线索房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r8.RoomNum=i;
+    System.out.println("请再指定2个线索房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r9.RoomNum=i;
+    System.out.println("请指定1个线索房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r10.RoomNum=i;
+    System.out.println("请指定2个解毒房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r11.RoomNum=i;
+    System.out.println("请再指定1个解毒房间的号数（1—12）,按回车结束");
+       i=in.nextShort();
+       r12.RoomNum=i;
+    System.out.println("请指定4个危险房间的号数（1—12）,按回车结束");   
+       i=in.nextShort();
+       r2.RoomNum=i;
+    System.out.println("请再指定3个危险房间的号数（1—12）,按回车结束");   
+       i=in.nextShort();
+       r5.RoomNum=i;
+    System.out.println("请再指定2个危险房间的号数（1—12）,按回车结束");   
+       i=in.nextShort();
+       r3.RoomNum=i;
+    System.out.println("请再指定1个危险房间的号数（1—12）,按回车结束");   
+       i=in.nextShort();
+       r4.RoomNum=i;
+
+    }
+    
+
+}
+
       //初始化房号数组
       //输入安全房间号码
   /* System.out.println("请指定1个安全房间的号数（1—12）,按回车结束");
@@ -100,46 +147,3 @@ public class EnterRoom {
 
         }
           */
-        
-    System.out.println("请指定1个安全房间的号数（1—12）,按回车结束");
-        short i;
-        i=in.nextShort();
-       r1.RoomNum=i;
-    System.out.println("请指定5个线索房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r6.RoomNum=i;
-    System.out.println("请再指定4个线索房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r7.RoomNum=i;
-    System.out.println("请再指定3个线索房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r8.RoomNum=i;
-    System.out.println("请再指定2个线索房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r9.RoomNum=i;
-    System.out.println("请指定1个线索房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r10.RoomNum=i;
-    System.out.println("请指定2个解毒房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r11.RoomNum=i;
-    System.out.println("请再指定1个解毒房间的号数（1—12）,按回车结束");
-       i=in.nextShort();
-       r12.RoomNum=i;
-    System.out.println("请指定4个危险房间的号数（1—12）,按回车结束");   
-       i=in.nextShort();
-       r2.RoomNum=i;
-    System.out.println("请再指定3个危险房间的号数（1—12）,按回车结束");   
-       i=in.nextShort();
-       r5.RoomNum=i;
-    System.out.println("请再指定2个危险房间的号数（1—12）,按回车结束");   
-       i=in.nextShort();
-       r3.RoomNum=i;
-    System.out.println("请再指定1个危险房间的号数（1—12）,按回车结束");   
-       i=in.nextShort();
-       r4.RoomNum=i;
-
-    }
-    
-
-}
