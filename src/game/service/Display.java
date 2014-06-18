@@ -21,5 +21,6 @@ public class Display {
         }else if(r.RoomColor==1){
           System.out.println("房间是白色线索房间");
         }
+        System.out.println("RoomNum = "+r.RoomNum+"\nRoomColor = "+r.RoomColor+"\nPosion = "+r.Posion+"\nUnPosion = "+r.UnPosion+"\nLock = "+r.Lock);
 }
 }
