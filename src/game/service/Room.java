@@ -31,7 +31,7 @@ public class Room {
         public int getRoomColor(){
         return RoomColor;
     }
-            public boolean getRoomPosion(){
+        public boolean getPosion(){
         return Posion;
     }
         public boolean getUnPosion(){

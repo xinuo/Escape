@@ -12,15 +12,15 @@ package game.service;
  */
 public class Display {
     public void Display(Room r){
-        if(r.RoomColor==4){
+        if(r.getRoomColor()==4){
           System.out.println("房间是蓝色安全房间");
-        }else if(r.RoomColor==3){
+        }else if(r.getRoomColor()==3){
           System.out.println("房间是绿色解毒房间");
-        }else if(r.RoomColor==2){
+        }else if(r.getRoomColor()==2){
           System.out.println("房间是红色危险房间");  
-        }else if(r.RoomColor==1){
+        }else if(r.getRoomColor()==1){
           System.out.println("房间是白色线索房间");
         }
-        System.out.println("RoomNum = "+r.RoomNum+"\nRoomColor = "+r.RoomColor+"\nPosion = "+r.Posion+"\nUnPosion = "+r.UnPosion+"\nLock = "+r.Lock);
+        System.out.println("RoomNum = "+r.getRoomNum()+"\nRoomColor = "+r.getRoomColor()+"\nPosion = "+r.getPosion()+"\nUnPosion = "+r.getUnPosion()+"\nLock = "+r.getLock());
 }
 }
