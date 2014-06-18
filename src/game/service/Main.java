@@ -17,9 +17,9 @@ public class Main {
         Room a = new Room();
         a.Room();
         EnterRoom r=new EnterRoom();
-        
-                        login _login = new login();
-		_login.starServer();
+           
+        login _login = new login();
+	_login.starServer();
     }
     
 
