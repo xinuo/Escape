@@ -4,12 +4,12 @@
  */
 package game.service;
 import java.util.*;
-import game.service.SetRoom;
+
 /**
  *
  * @author 泣雨
  */
-public class InitializeRoom {
+public class InitializeRoom extends Room{
     int num[] = new int[]{0,0,0,0,0,0,0,0,0,0,0,0};
     Scanner in=new Scanner(System.in);
         SetRoom r1 = new SetRoom();
@@ -27,7 +27,7 @@ public class InitializeRoom {
             
     public  InitializeRoom(){
 
-        
+            r1.setRoomNum(1);
             r1.setBlue();
             r2.setRed();
             r3.setRed();

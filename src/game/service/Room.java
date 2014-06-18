@@ -12,22 +12,23 @@ public class Room {
     public void  Room(){
     System.out.println("RoomNum = "+RoomNum+"\nRoomColor = "+RoomColor+"\nPosion = "+Posion+"\nUnPosion = "+UnPosion+"\nLock = "+Lock);
     }
-    short RoomNum;
-    short RoomColor;
-    boolean Posion;
-    boolean UnPosion;
-    boolean Lock=true;
-    boolean clue;
-    public void  setRoomNum(short n){RoomNum =  n;}
-    public void setRoomColor(short n){RoomColor = n;}
-    public void setRoomPosion(boolean n){Posion = n;}
+    private int RoomNum;
+    private int RoomColor;
+    private boolean Posion;
+    private boolean UnPosion;
+    private boolean Lock=true;
+    private boolean Clue;
+    public void setRoomNum(int n){RoomNum =  n;}
+    public void setRoomColor(int n){RoomColor = n;}
+    public void setPosion(boolean n){Posion = n;}
     public void setUnPosion(boolean n){UnPosion = n;}
     public void setLock(boolean n){Lock = n;}
-    public short getRoomNum(){
+    public void setClue(boolean n){Clue = n;}
+    public int getRoomNum(){
         return RoomNum;
     }
     public boolean getLock(){return Lock;}
-        public short getRoomColor(){
+        public int getRoomColor(){
         return RoomColor;
     }
             public boolean getRoomPosion(){
@@ -35,6 +36,9 @@ public class Room {
     }
         public boolean getUnPosion(){
             return UnPosion;
+        }
+        public boolean getClue(){
+            return Clue;
         }
         
         
