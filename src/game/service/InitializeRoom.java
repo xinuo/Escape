@@ -25,9 +25,8 @@ public class InitializeRoom extends Room{
         SetRoom r11 = new SetRoom();
         SetRoom r12 = new SetRoom();
             
-    public  InitializeRoom(){
+    public  void InitializeRoom(){
 
-            r1.setRoomNum(1);
             r1.setBlue();
             r2.setRed();
             r3.setRed();

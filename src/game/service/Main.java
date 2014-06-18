@@ -16,9 +16,11 @@ public class Main {
      */
     public static void main(String[] args) {
         InitializeRoom  a = new InitializeRoom();
-        Display x=new Display();
-        
-        x.Display(a.r2);
+        a.InitializeRoom();
+        InquireRoom I = new InquireRoom();
+        I.InquireRoom();
+        Display x = new Display();
+        x.Display(a.r1);
         //login _login = new login();
 	//_login.starServer();
             
