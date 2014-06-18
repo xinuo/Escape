@@ -16,11 +16,11 @@ public class Main {
     public static void main(String[] args) {
         Room a = new Room();
         a.Room();
- initializeRoom r = new initializeRoom();
+    initializeRoom r = new initializeRoom();
            
-        login _login = new login();
-	_login.starServer();
-               SetRoom r1 = new SetRoom();
+        //login _login = new login();
+	//_login.starServer();
+    
 
     }
     
