@@ -15,12 +15,12 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        InitializeRoom  a = new InitializeRoom();
-        a.InitializeRoom();
-        InquireRoom I = new InquireRoom();
-        I.InquireRoom();
-        Display x = new Display();
+        Room  r = new Room();
+        r.InitializeRoom();
         
+        r.InquireRoom();
+
+
 //        x.Display(a.r1);
 //                x.Display(a.r2);
 //                        x.Display(a.r3);

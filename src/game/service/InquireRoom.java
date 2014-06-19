@@ -21,7 +21,7 @@ public class InquireRoom extends Room{
         a=i.nextShort();
         InitializeRoom r = new InitializeRoom();
         
-        if(a!=r.r1.getRoomNum()){
+        if(a==r.r1.getRoomNum()){
             d.Display(r.r1);
         }else if(a==r.r2.getRoomNum()){
             d.Display(r.r2);
