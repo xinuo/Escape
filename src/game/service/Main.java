@@ -12,7 +12,7 @@ package game.service;
 public class Main {
 
     /**
-     * @param args the command line arguments
+     * @paramargs the command line arguments
      */
     public static void main(String[] args) {
         InitializeRoom  a = new InitializeRoom();
@@ -21,8 +21,7 @@ public class Main {
         
         //login _login = new login();
 	//_login.starServer();
-            
-            
+        
     }
     
 
