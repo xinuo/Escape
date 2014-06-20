@@ -40,9 +40,4 @@ public class Room {
         public boolean getClue(){
             return Clue;
         }
-        
-        
-        
-        
-        
 }
