@@ -17,9 +17,7 @@ public class Main {
     public static void main(String[] args) {
         InitializeRoom  a = new InitializeRoom();
         a.InitializeRoom();
-        InquireRoom I = new InquireRoom();
-        I.InquireRoom();
-        Display x = new Display();
+        a.InquireRoom();
         
 //        x.Display(a.r1);
 //                x.Display(a.r2);

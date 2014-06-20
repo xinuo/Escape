@@ -79,7 +79,40 @@ public class InitializeRoom extends Room{
 
     }
     
-
+   public void InquireRoom(){
+       Scanner i = new Scanner(System.in);
+       Display d = new Display();
+       System.out.println("请输入你要查询的房间号（1-12）");
+        int a;
+        a=i.nextShort();
+        
+        if(a==r1.getRoomNum()){
+            d.Display(r1);
+        }else if(a==r2.getRoomNum()){
+            d.Display(r2);
+        }else if(r3.getRoomNum()==a){
+            d.Display(r3);
+        }else if(r4.getRoomNum()==a){
+            d.Display(r4);
+        }else if(r5.getRoomNum()==a){
+            d.Display(r5);
+        }else if(r6.getRoomNum()==a){
+            d.Display(r6);
+        }else if(r7.getRoomNum()==a){
+            d.Display(r7);
+        }else if(r8.getRoomNum()==a){
+            d.Display(r8);
+        }else if(r9.getRoomNum()==a){
+            d.Display(r9);
+        }else if(r10.getRoomNum()==a){
+            d.Display(r10);
+        }else if(r11.getRoomNum()==a){
+            d.Display(r11);
+        }else if(r12.getRoomNum()==a){
+            d.Display(r12);
+        }
+    
+}
 }
 
       //初始化房号数组
