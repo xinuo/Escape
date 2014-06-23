@@ -43,7 +43,8 @@ public class InitializeRoom extends Room{
         short i;
         i=in.nextShort();
        r1.setRoomNum(i);
-    System.out.println("请指定5个线索房间的号数（1—12）,按回车结束");
+       
+    /*System.out.println("请指定5个线索房间的号数（1—12）,按回车结束");
        i=in.nextShort();
        r6.setRoomNum(i);
     System.out.println("请再指定4个线索房间的号数（1—12）,按回车结束");
@@ -58,13 +59,15 @@ public class InitializeRoom extends Room{
     System.out.println("请指定1个线索房间的号数（1—12）,按回车结束");
        i=in.nextShort();
        r10.setRoomNum(i);
+            */
     System.out.println("请指定2个解毒房间的号数（1—12）,按回车结束");
        i=in.nextShort();
        r11.setRoomNum(i);
     System.out.println("请再指定1个解毒房间的号数（1—12）,按回车结束");
        i=in.nextShort();
        r12.setRoomNum(i);
-    System.out.println("请指定4个危险房间的号数（1—12）,按回车结束");   
+    /*
+            System.out.println("请指定4个危险房间的号数（1—12）,按回车结束");   
        i=in.nextShort();
        r2.setRoomNum(i);
     System.out.println("请再指定3个危险房间的号数（1—12）,按回车结束");   
@@ -76,9 +79,8 @@ public class InitializeRoom extends Room{
     System.out.println("请再指定1个危险房间的号数（1—12）,按回车结束");   
        i=in.nextShort();
        r4.setRoomNum(i);
-
+*/
     }
-    
    public void InquireRoom(){
        Scanner i = new Scanner(System.in);
        Display d = new Display();

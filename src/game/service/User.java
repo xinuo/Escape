@@ -16,6 +16,7 @@ public class User {
     static private int UserPower = 2;
     static private boolean UserState=true; //发言的权限
     static public int UserNum;
+    static public int UID;//user ID
     public void setUserName(String n){
         UserName = n;
     }

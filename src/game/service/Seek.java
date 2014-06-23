@@ -11,7 +11,7 @@ package game.service;
  * @author z
  */
 public class Seek {
-    public Seek(User n,Room a){
+    public Seek(User n,Room a){   //方法形参 用户X,房间号
         if (a.getPosion()==true){
             n.setUserPower(1);
     }else if (a.getUnPosion()){

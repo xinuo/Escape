@@ -16,7 +16,7 @@ public class Room {
     private int RoomColor;
     private boolean Posion;
     private boolean UnPosion;
-    private boolean Lock=true;
+    private boolean Lock;
     private boolean Clue;
     public void setRoomNum(int n){RoomNum =  n;}
     public void setRoomColor(int n){RoomColor = n;}
