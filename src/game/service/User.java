@@ -11,26 +11,26 @@ package game.service;
  * @author 泣雨
  */
 public class User {
-    public String UserName;
-    private boolean UserStatus;
-    private short UserPower = 2;
-    private boolean UserState;
-    public short UserNum;
+    static public String UserName;
+    static private boolean UserStatus;
+    static private int UserPower = 2;
+    static private boolean UserState=true; //发言的权限
+    static public int UserNum;
     public void setUserName(String n){
         UserName = n;
     }
     public void setUserStatus(boolean n){
         UserStatus = n;
     }
-    public void setUserPower(short n){
+    public void setUserPower(int n){
         UserPower = n;
     }
-    public void setUserNum(short n){
+    public void setUserNum(int n){
         UserNum = n;
 }
-    public String UserName(){return UserName;}
-    public boolean UserStatus(){return UserStatus;}
-    public short UserPower(){return UserPower;}
-    public boolean UserState(){return UserState;}
+    public String getUserName(){return UserName;}
+    public boolean getUserStatus(){return UserStatus;}
+    public int getUserPower(){return UserPower;}
+    public boolean getUserState(){return UserState;}
 
 }

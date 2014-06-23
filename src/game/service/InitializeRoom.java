@@ -12,18 +12,18 @@ import java.util.*;
 public class InitializeRoom extends Room{
     int num[] = new int[]{0,0,0,0,0,0,0,0,0,0,0,0};
     Scanner in=new Scanner(System.in);
-        SetRoom r1 = new SetRoom();
-        SetRoom r2 = new SetRoom();
-        SetRoom r3 = new SetRoom();
-        SetRoom r4 = new SetRoom();
-        SetRoom r5 = new SetRoom();
-        SetRoom r6 = new SetRoom();
-        SetRoom r7 = new SetRoom();
-        SetRoom r8 = new SetRoom();
-        SetRoom r9 = new SetRoom();
-        SetRoom r10 = new SetRoom();
-        SetRoom r11 = new SetRoom();
-        SetRoom r12 = new SetRoom();
+        static SetRoom r1 = new SetRoom();
+        static SetRoom r2 = new SetRoom();
+        static SetRoom r3 = new SetRoom();
+        static SetRoom r4 = new SetRoom();
+        static SetRoom r5 = new SetRoom();
+        static SetRoom r6 = new SetRoom();
+        static SetRoom r7 = new SetRoom();
+        static SetRoom r8 = new SetRoom();
+        static SetRoom r9 = new SetRoom();
+        static SetRoom r10 = new SetRoom();
+        static SetRoom r11 = new SetRoom();
+        static SetRoom r12 = new SetRoom();
             
     public  void InitializeRoom(){
 

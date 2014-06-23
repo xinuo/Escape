@@ -18,7 +18,8 @@ public class Main {
         InitializeRoom  a = new InitializeRoom();
         a.InitializeRoom();
         a.InquireRoom();
-        
+        Display d = new Display();
+        d.Display(InitializeRoom.r1);
         //login _login = new login();
 	//_login.starServer();
         
