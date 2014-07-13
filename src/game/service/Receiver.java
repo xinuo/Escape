@@ -6,13 +6,13 @@ import java.util.*;
 
 
 
-public class login {
+public class Receiver {
 
 	private ServerSocket serverSocket;
 	private ServerSocket sandboxServerSocket;
 //	ArrayList<Object> sManager = new ArrayList<>();
 	private final BManager bManager = new BManager();
-	public login(){}
+	public Receiver(){}
 	
 	void starServer()
 	{
